@@ -58,7 +58,7 @@ export const STEPS: StepData[] = [
       "Welke feedback heb ik gevraagd en gebruikt?",
       "Past mijn aanpak nog bij mijn leerplan?"
     ],
-    aiRole: "Ik ben een interactieve studiepartner en feedbackmachine. Geef 'minimal feedback' (hints, geen oplossingen). Help bij het doorgronden van complexe info door verdiepende vragen te stellen.",
+    aiRole: "Ik ben een interactieve studiepartner en feedbackgever. Geef 'minimal feedback' (hints, geen oplossingen). Help bij het doorgronden van complexe info door verdiepende vragen te stellen.",
     aiPromptSuggestions: [
       "Ik loop vast met deze theorie, kun je me een hint geven?",
       "Stel me kritische vragen over mijn huidige aanpak.",
@@ -89,7 +89,7 @@ export const STEPS: StepData[] = [
   {
     id: 5,
     title: "Pas op de plaats maken",
-    shortDescription: "Reflecteer op je voortgang en balans.",
+    shortDescription: "Reflecteer op je voortgang en niveau.",
     phase: RegulationPhase.REFLECTION,
     fullDescription: [
       "Je reflecteert op waar je staat: hoeveel bewijs heb je verzameld en wat moet er nog gebeuren?",
