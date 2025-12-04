@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { StepCard } from './components/StepCard';
 import { StepDetail } from './components/StepDetail';
 import { STEPS } from './constants';
-import { ChevronRight } from 'lucide-react';
 
 export default function App() {
   const [activeStepId, setActiveStepId] = useState<number | null>(null);
